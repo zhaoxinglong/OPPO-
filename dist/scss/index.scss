@@ -1,0 +1,176 @@
+/*OPPO见证你的美*/
+
+
+/*oppo头部*/
+
+
+/*见俊哥用gulpfile.js,现在不会用，就先用scss插件以及规范*/
+
+
+/*通用*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    width: 1366px;
+    height: 106px;
+    .logoall {
+        width: 1366px;
+        height: 28px;
+        background: #009b72;
+        .logo {
+            width: 1176px;
+            height: 28px;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-left: 83px;
+            margin-right: 83px;
+            .logoul {
+                width: 213px;
+                height: 28px;
+                float: right;
+                text-align: center;
+                line-height: 28px;
+                font-size: 13px;
+                li {
+                    width: 66px;
+                    height: 28px;
+                    border-left: 1px solid #47b488;
+                    float: left;
+                    &:hover {
+                        background: #47b488;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: #ebf7f4;
+                    }
+                }
+            }
+        }
+    }
+    .logobottom {
+        width: 1366px;
+        height: 78px;
+        .logobottommain {
+            width: 1176px;
+            height: 78px;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-left: 83px;
+            margin-right: 83px;
+            .logobottommainleft {
+                width: 400px;
+                height: 19px;
+                margin-top: 34px;
+                margin-bottom: 20px;
+                float: left;
+            }
+            .logobottommaincenter {
+                width: 224px;
+                height: 78px;
+                float: left;
+            }
+            .logobottommainright {
+                width: 552px;
+                height: 78px;
+                float: right;
+                .nav {
+                    width: 552px;
+                    height: 48px;
+                    margin-top: 30px;
+                    .navmain {
+                        width: 552px;
+                        height: 48px;
+                        .navul {
+                            width: 552px;
+                            height: 48px;
+                            margin-top: 30px;
+                            .navuloneli {
+                                color: #393939;
+                                text-decoration: underline;
+                            }
+                            li {
+                                width: 74px;
+                                height: 20px;
+                                padding-bottom: 28px;
+                                float: left;
+                                font-size: 15px;
+                                text-align: center;
+                                a {
+                                    display: block;
+                                    width: 74px;
+                                    height: 48px;
+                                    padding-left: 28px;
+                                    padding-right: 28px;
+                                    text-decoration: none;
+                                    color: #a8a8a8;
+                                    &:hover {
+                                        color: #393939;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*oppo身部*/
+
+.bodyer {
+    width: 1366px;
+    height: 803px;
+    .bodyertop {
+        width: 1366px;
+        height: 568px;
+        .bodyertopmain {
+            width: 1366px;
+            height: 568px;
+        }
+    }
+    .bodyerbottom {
+        width: 1366px;
+        height: 230px;
+        padding-top: 5px;
+        .bodyerbottommain {
+            width: 1354px;
+            height: 230px;
+            margin-left: -5px;
+            .bodyerbottommainone {
+                width: 446.328px;
+                height: 230px;
+                padding-left: 5px;
+                float: left;
+                .bodyerbottommainonemain {
+                    width: 446.328px;
+                    height: 230px;
+                    img {
+                        width: 460px;
+                        height: 230px;
+                    }
+                }
+            }
+            .bodyerbottommaintwo {
+                width: 446.328px;
+                height: 230px;
+                padding-left: 5px;
+                float: left;
+                .bodyerbottommaintwomain {
+                    width: 446.328px;
+                    height: 230px;
+                    img {
+                        width: 460px;
+                        height: 230px;
+                    }
+                }
+            }
+        }
+    }
+}

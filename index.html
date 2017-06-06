@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>OPPO见证你的美</title>
+    <link rel="stylesheet" href="./dist/css/index.css">
+    <link rel="stylesheet" href="./dist/node_modules/swiper/dist/css/swiper.min.css">
+    <style>
+    #chajian {
+        width: 1366px;
+        height: 568px;
+    }
+    
+    .tiaokuangao {
+        width: 1366px;
+        height: 568px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logoall">
+                <div class="logo">
+                    <ul class="logoul">
+                        <li><a href="">登录</a></li>
+                        <li><a href="">注册</a></li>
+                        <li><a href="">Global</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="logobottom">
+                <div class="logobottommain">
+                    <div class="logobottommainleft">
+                        <a href=""><img src="./dist/images/logo.png" alt=""></a>
+                    </div>
+                    <div class="logobottommaincenter">
+                    </div>
+                    <div class="logobottommainright">
+                        <div class="nav">
+                            <div class="navmain">
+                                <ul class="navul">
+                                    <li><a class="navuloneli" href="">首页</a></li>
+                                    <li><a href="">产品</a></li>
+                                    <li><a href="">商城</a></li>
+                                    <li><a href="">体验店</a></li>
+                                    <li><a href="">服务</a></li>
+                                    <li><a href="">ColorOS</a></li>
+                                    <li><a href="">社区</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bodyer">
+            <div class="bodyertop">
+                <div class="bodyertopmain">
+                    <div class="swiper-container" id="chajian">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="tiaokuangao" src="./dist/images/1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img class="tiaokuangao" src="./dist/images/2.jpg" alt=""></div>
+                        </div>
+                        <!-- 如果需要分页器 -->
+                        <div class="swiper-pagination"></div>
+                        <!-- 如果需要导航按钮 -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bodyerbottom">
+                <div class="bodyerbottommain">
+                    <div class="bodyerbottommainone">
+                        <div class="bodyerbottommainonemain">
+                            <a href=""><img src="./dist/images/3.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="bodyerbottommaintwo">
+                        <div class="bodyerbottommaintwomain">
+                            <a href=""><img src="./dist/images/4.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./dist/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./dist/node_modules/swiper/dist/js/swiper.jquery.min.js"></script>
+    <script>
+    new Swiper('.swiper-container', {
+        //direction: 'vertical',
+        loop: true,
+
+        // 如果需要分页器
+        pagination: '.swiper-pagination',
+
+        // 如果需要前进后退按钮
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+
+        //自动播放
+        autoplay: 2000,
+
+        //点击下面的小圆点，切换图片，（分页按钮进行轮播）
+        paginationClickable: true,
+
+        //鼠标上去停止
+        autoplayDisableOnInteraction: false,
+
+
+    })
+    </script>
+</body>
+
+</html>
